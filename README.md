@@ -24,4 +24,5 @@ let verifiedStatus
 await client.isVerified("speedyman77").then(e=>verifiedStatus = e) // takes one parameter in which is username
 // returns true if user is verified, false if the user is not
 ```
+Editing DOES work, but the server responds with a 505 (internal server error), so that will have to be fixed on the backend.<br>
 Creating txts is coming soon!
